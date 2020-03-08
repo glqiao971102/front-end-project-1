@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/new_background.jpeg') no-repeat center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -72,6 +72,7 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  background-position: center;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
