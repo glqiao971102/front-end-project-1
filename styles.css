@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.main-menu {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -70,12 +70,13 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 2px solid black;
+  transition: all 0.5s;
   background-position: center;
 }
+/* change the css properties on transform and boder*/
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -89,7 +90,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+.section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -99,7 +100,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.section:hover {
   border-color: #ff99ff;
 }
 
@@ -167,6 +168,13 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+.myHobby{
+
+  text-align: center;
+
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
